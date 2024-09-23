@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:hover {
+  color: red;
+}
+
+body {
+  background-image: url('images/bg_image.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#navbar {
+  background-color: rgba(0, 0, 0, 0.7); 
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex; 
+  justify-content: center; 
+}
+
+#navbar li {
+  margin: 0 10px; 
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 14px 20px; 
+  text-decoration: none;
+  border-radius: 10px; 
+  transition: background-color 0.3s; 
+}
+
+#navbar li a:hover:not(.active) {
+  background-color: red; 
+}
+
+.active {
+  background-color: navy; 
+}
+
+.containers {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding-top: 30px;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+.containers h2 {
+  padding-bottom: 14.5px;
+  text-align: center;
+}
+
+.span_1 {
+  color: red;
+  font-weight: bold;
+}
+
+.span_2 {
+  color: red;
+  font-weight: bold;
+}
+
+.span_3, .span_10 {
+  color: red;
+  font-weight: bold;
+}
+
+.span_4, .span_8 {
+  color: purple;
+  font-weight: bold;
+}
+
+.span_5 {
+  color: blue;
+  font-weight: bold;
+}
+
+.span_6 {
+  color: orangered;
+  font-weight: bold;
+}
+
+.span_7 {
+  color: greenyellow;
+  font-weight: bold;
+}
+
+.span_9 {
+  color: gold;
+  font-weight: bold;
+}
+
+.span_11 {
+  color: magenta;
+  font-weight: bold;
+}
+
+.span_12 {
+  color: gray;
+  font-weight: bold;
+}
+
+.span_13 {
+  color: rgb(0, 138, 37);
+  font-weight: bold;
+}
+
+.left_sidebar {
+  color: white;
+  width: 20%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+}
+
+
+.left_sb_list {
+  padding: 50px;
+  
+}
+
+.left_sb_list ul {
+  margin-left: 20px;
+}
+
+.left_sb_list li {
+  margin-bottom: 10px;
+}
+
+
+
+.contact_info {
+  padding: 50px;
+}
+
+.contact_info ul {
+  margin-left: 20px;
+}
+
+.contact_info li {
+  margin-bottom: 10px;
+}
+
+.gsu-logo {
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover; 
+  display: block; 
+  margin: 0 auto; 
+  border-radius: 10px; 
+}
+
+.right_sidebar {
+  color: white;
+  width: 20%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+}
+
+.fun_fact {
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.tri_span {
+  color: red;
+  font-weight: bold;
+}
+
+.speak_span {
+  color: blue;
+  font-weight: bold;
+
+}
+
+.map_container {
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.map_photo {
+  width: 210px; 
+  height: 210px; 
+  object-fit: cover; 
+  display: block; 
+  margin: 0 auto; 
+  border-radius: 25px; 
+}
+
+.lang_list {
+  font-weight: bold;
+  padding: 15px;
+  margin: 10px;
+}
+
+
+.zeb_stripe {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.zeb_stripe tbody tr:nth-child(odd) {
+  background-color: rgba(255, 0, 0, 0.3);
+  
+
+}
+
+.zeb_stripe tbody tr:nth-child(even) {
+  background-color: rgba(147, 112, 219, 0.3);
+ 
+ 
+}
+
+.zeb_stripe td {
+  padding: 10px;
+}
+
+.zeb_stripe a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.main_content {
+  color: white;
+  width: 55%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  text-align: center;
+}
+
+.profile_pic {
+  width: 550px; 
+  height: 550px; 
+  object-fit: cover; 
+  display: block; 
+  margin: 0 auto; 
+  border-radius: 10px; 
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.edu_job {
+  text-align: left;
+  flex: 1; 
+  margin-right: 20px; 
+  padding: 20px;
+}
+
+.edu_job h2 {
+  margin-bottom: 10px;
+}
+
+.edu_job ul, .edu_job ol {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.hobbies {
+  text-align: left;
+  flex: 1; 
+  margin-left: 20px; 
+  padding: 20px;
+}
+
+.hobbies h2 {
+  margin-bottom: 10px;
+}
+
+.hobbies ul {
+  margin-left: 20px;
+}
+
+.hobbies li {
+  margin-bottom: 10px;
+}
+
+.quote_section {
+  font-weight: bold;
+  font-style: italic
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7); 
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-style: italic;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  z-index: 1000; 
+}
